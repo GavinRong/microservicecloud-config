@@ -4,12 +4,12 @@
         - dev
 ---
 spring: 
-    profiles: 
-        application: 
+    profiles: dev
+    application: 
             name: microservicecloud-config-evolutionr-dev
 ---
 spring: 
-    profiles: 
-        application: 
+    profiles: test
+    application: 
             name: microservicecloud-config-evolutionr-test
 #以UTF-8格式保存，可采用记事本打开，并在另存为时选择编码格式为UTF-8
