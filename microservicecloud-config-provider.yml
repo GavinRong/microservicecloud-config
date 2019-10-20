@@ -44,7 +44,7 @@ info:
 server: 
     port: 8002
 spring: 
-    profiles: dev
+    profiles: test
    application:
     name: microservicecloud-config-dept-provider                            #微服务的名称
    datasource:
