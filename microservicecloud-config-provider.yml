@@ -77,4 +77,4 @@ info:
   app.name: microservicecloud-config-dept-provider 
   company.name: www.evolutionr.cn
   build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.version: $project.version$ 
