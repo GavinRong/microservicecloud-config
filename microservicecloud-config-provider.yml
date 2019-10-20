@@ -70,12 +70,12 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
   
 eureka:
-  client: #客户端注册进eureka服务列表内
-    service-url: 
-       defaultZone: http://eureka7002.com:7002/eureka/
-  instance:
-    instance-id: microservicecloud-dept8002-config   #注册服务，向外界展示的服务/实例名称
-    prefer-ip-address: true     #访问路径可以显示IP地址
+    client: #客户端注册进eureka服务列表内
+        service-url: 
+            defaultZone: http://eureka7002.com:7002/eureka/
+    instance:
+       instance-id: microservicecloud-dept8002-config   #注册服务，向外界展示的服务/实例名称
+       prefer-ip-address: true     #访问路径可以显示IP地址
   
 info: 
   app.name: microservicecloud-config-provider 
