@@ -2,7 +2,9 @@
     profiles: 
         active: 
         - dev
-
+    application:
+        name: microservicecloud-config-provider  
+        
 ---
 
 server:
