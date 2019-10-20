@@ -16,13 +16,12 @@ spring:
 eureka:
     instance: 
         hostname: eureka7001.com
-    clinet:
+    client:
         register-with-eureka: false
         fetch-registry: false
         service-url: 
             defaultZone: http://eureka7001.com:7001/eureka/
-        serviceUrl: 
-            defaultZone: http://eureka7001.com:7001/eureka/
+        
 ---
 server: 
     port: 7001
@@ -35,7 +34,7 @@ spring:
 eureka: 
     instance: 
         hostname: eureka7001.com
-    clinet: 
+    client: 
         register-with-eureka: false
         fetch-registry: false
         service-url: 
