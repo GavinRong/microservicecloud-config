@@ -7,8 +7,8 @@ server:
     port: 8001
 spring: 
     profiles: dev
-   application: 
-    name: microservicecloud-config-dept-provider                            #微服务的名称
+  application:
+    name: microservicecloud-config-provider                              #微服务的名称
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -45,8 +45,8 @@ server:
     port: 8002
 spring: 
     profiles: test
-   application: 
-    name: microservicecloud-config-dept-provider                            #微服务的名称
+  application:
+    name: microservicecloud-config-provider                             #微服务的名称
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
