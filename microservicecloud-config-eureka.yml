@@ -13,10 +13,10 @@ spring:
     application:
         name: microservicecloud-config-eureka
         
-eureka: 
+eureka:
     instance: 
         hostname: eureka7001.com
-    clinet: 
+    clinet:
         register-with-eureka: false
         fetch-registry: false
         service-url: 
